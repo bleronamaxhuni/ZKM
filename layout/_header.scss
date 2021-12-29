@@ -1,0 +1,204 @@
+header{
+   .language1{
+        float: right;
+        text-decoration: none;
+        color: white;
+        font-size:20px ;
+        margin-top: 10px;
+        margin-right: 10px;
+     }
+     .language1:hover{
+        color: #D2AB67;
+     }
+     .social-media{
+        margin-right: 50px;
+        float: right;
+        word-spacing: 32px;
+        line-height: 32px;
+     }
+     #fb, #tw ,#yt{
+        font-size: 18px;
+        color: white;
+        margin-top: 18px;
+     }
+     .navbar-light .navbar-toggler {
+        background-color: rgba(255, 255, 255, 0.644);
+        border: none;
+     }
+     .bg-light{
+        border-top: 1px solid white;
+        width: 100%;
+        background-color: transparent!important;
+        font-family: 'Merriweather', serif;
+      }
+      .navbar-light .navbar-brand{
+         color: white !important;
+         font-size: 20px!important;
+      }
+      hr{
+         color: #fff;
+      }
+      .navbar-light .navbar-nav .nav-link{
+         color: white!important;
+         justify-content: space-between;
+         margin-left: 33px;
+         font-size: 15px;
+         text-transform: uppercase;
+     }
+     
+     .btn-outline-success{
+        border: none !important;
+        color: transparent!important;
+     }
+
+     .form-control::placeholder{
+        color: white;
+     }
+     .dropdown-menu{
+        background-color:#2767AD;
+        width: 200px;
+        margin-left: 0px;
+     }
+     .menu{
+        background-color:#2767AD;
+        width: 220px;
+        margin-left: 20px;
+     }
+     .dropdown-item{
+        color: white;
+        line-height: 5px;
+        margin-left: 0px;
+     }
+     .dropdown-item:hover{
+        color:#D2AB67;
+        background-color: transparent;
+     }
+
+     .form-control{
+      background-color: #2767ad;
+      border: none;
+      margin-top: 7px;
+   }
+     .form-control:focus{
+      background-color: #2767ad;
+      border: none;
+      margin-top: 5px;
+   }
+      .form-control::placeholder{
+      font-size: 15px;
+   }
+      .send{
+      background-color: #2767ad;
+      border: none;
+      margin-top: 7px;
+   }
+      .fas.fa-search{
+         color: white;
+   }
+
+   @media(max-width:1399px){
+     #fb , #tw , #yt{
+           font-size: 20px;
+        }
+        .social-media{
+           margin-right: 50px;
+           margin-top: 0px;
+        }
+        .language{
+           margin-right: 100px;
+        }
+        .language1{
+           font-size: 15px;
+           margin-top: 15px;
+        }
+        .logo1{
+           height: 40px;
+           width: 40px;
+        }
+    .navbar-light {
+        .navbar-nav {
+            .nav-link{
+                margin-left: 10px;
+                font-size: 14px;
+            }
+        }
+        .navbar-brand{
+            font-size: 15px!important;
+         }
+    }
+        .dropdown-item{
+           font-size: 12px;
+        }
+     }
+   @media(max-width:1199px){
+        .logo1{
+           height: 30px;
+           width: 30px;
+        }
+        .navbar-light .navbar-brand{
+           font-size: 13px!important;
+        }
+        .navbar-light .navbar-nav .nav-link{
+           margin-left: 10px;
+           font-size: 11px;
+        }
+        .dropdown-item{
+           font-size: 10px;
+        }
+        #fb, #tw ,#yt{
+         font-size: 16px;
+      }
+      .form-control ,.send {
+         height: 30px;
+         margin-top:12px;
+         margin-left: 15px;
+      }
+     }
+  @media(max-width:991px){
+        #fb , #tw , #yt{
+           font-size: 15px;
+        }
+        .social-media{
+           margin-right: 80px;
+           margin-top: 10px;
+        }
+        .language{
+           margin-right: 50px;
+        }
+        .language1{
+           font-size: 15px;
+           margin-top: 24px;
+        }
+        .bg-light{
+           border-top: 1px solid rgb(255, 255, 255);
+           width: 100%;
+           margin-left: 0px;
+        }
+        .dropdown-item{
+           font-size: 11px;
+        }
+        .form-control{
+           margin-left: 10px;
+        }
+     }
+     @media (max-width:414px) {
+      .dropdown-menu{
+         margin-left: 0px;
+      }
+   }
+     @media(max-width:320px){
+        .language1{
+           font-size: 12px;
+           margin-right: 0px;
+           margin-top: 25px;
+        }
+        .social-media{
+           font-size: 10px;
+        }
+        #fb, #tw ,#yt{
+           margin-left: -15px;
+           color: white;
+           margin-top: 18px;
+        }
+     }
+   }
