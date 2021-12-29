@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lajme</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+   <header>
+      <div class="container">
+         <div class="language">
+            <a href="#" target="_blank" class="language1">SR</a>
+            <a href="#" target="_blank" class="language1">EN /</a>
+            <a href="#" target="_blank" class="language1">SQ /</a>
+         </div>
+         <div class="social-media">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f" id="fb"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter" id="tw"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube" id="yt"></i></a>
+         </div>
+      </div>
+      <br>
+      <br>
+      <div class="container">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand" href="index.html"><img src="./images/Group 2155.png" class="logo1" alt="">
+               Zyrja e Kryeministrit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+               aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="kryeministri.html" id="navbarDropdown dropdown"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kryeministri
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Kabineti-qeveritar.html">Kabineti qeveritar</a></li>
+                        <hr class="hr-dr">
+                        <li><a class="dropdown-item" href="agjenda.html">Agjenda</a></li>
+                        <hr class="hr-dr">
+                        <li><a class="dropdown-item" href="intervista.html">Intervistat</a></li>
+                        <hr class="hr-dr">
+                        <li><a class="dropdown-item" href="shkruaj-kryeministrit.html">Shkruaj kryeministrit</a></li>
+                     </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Zyra e kryeministrit
+                     </a>
+                     <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="sekretari.html">Sekretari i përgjithshem</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="zyrat.html">Zyrat</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="agjensite.html">Agjensitë</a></li>
+                        <hr>
+                        <li><a class="dropdown-item" href="komisionet.html">Komisionet</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="lajme.html">Lajme</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="dokumente.html">Dokumente</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html">Kontakti</a>
+                  </li>
+               </ul>
+               <form class="d-flex">
+                  <div class="input-group mb-3">
+                     <input id="input" type="text" class="form-control" placeholder="Kërko në webfaqe"
+                        aria-label="E-mail" aria-describedby="button-addon2" />
+                     <button class="btn btn-outline-secondary send" aria-label="" type="button"><i
+                           class="fas fa-search"></i></button>
+                  </div>
+               </form>
+            </div>
+         </nav>
+      </div>
+   </header>
+
+   <section>
+      <div class="container">
+         <div class="link-name">
+            <a href="./index.html" class="link">Ballina</a>
+            <a href="lajme.html" class="link"><i class="fas fa-chevron-right"></i> Lamje</a>
+         </div>
+      </div>
+   </section>
+
+   <section class="select">
+      <div class="container">
+         <div class="title-team">
+            <h2>Lajme</h2>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="container Select">
+         <div class="select-month">
+            <button class="flirt">Filtro</button>
+            <select name="month" id="month">
+               <option value="1">January</option>
+               <option value="2">February</option>
+               <option value="3">March</option>
+               <option value="4">April</option>
+               <option value="5">May</option>
+               <option value="6" selected>June</option>
+               <option value="7">July</option>
+               <option value="8">August</option>
+               <option value="9">September</option>
+               <option value="10">October</option>
+               <option value="11">November</option>
+               <option value="12">December</option>
+            </select>
+            <select name="year" id="year">
+               <option value="2016">2016</option>
+               <option value="2017">2017</option>
+               <option value="2018">2018</option>
+               <option value="2019">2019</option>
+               <option value="2020">2020</option>
+               <option value="2021" selected>2021</option>
+               <option value="2022">2022</option>
+               <option value="2023">2023</option>
+               <option value="2024">2024</option>
+            </select>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="container NewSelect">
+         <div class="card mb-3" id="card" style="max-width: 100%">
+            <div class="row g-0">
+               <div class="col-md-4">
+                  <img src="./images/LVV_1109-1-595x310.png" width="300px" alt="">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body col-lg-12">
+                     <span class="date">06.05.2021</span>
+                     <a href="#" class="n-link">
+                        <p class="card-text col-lg-10">Kryeministri Kurti priti në takim perfaqësuesit e disa
+                           televizioneve lokale
+                        </p>
+                        <br>
+                        <span class="more">show more <i class="fas fa-chevron-right"></i></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <br>
+         </div>
+         <div class="card mb-3" id="card" style="max-width: 100%;">
+            <div class="row g-0">
+               <div class="col-md-4">
+                  <img src="./images/LVV_1109-1-595x310.png" width="300px" alt="">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body col-lg-12">
+                     <span class="date">05.05.2021</span>
+                     <a href="#" class="n-link">
+                        <p class="card-text col-lg-10">Kryeministri Kurti ka pranuar letër urimi nga kryeministi i
+                           Malajzisë, Tan
+                           Sri Muhyiddin Yassin</p>
+                        <span class="more">show more <i class="fas fa-chevron-right"></i></span>
+                     </a>
+                     <br>
+                  </div>
+               </div>
+            </div>
+            <br>
+         </div>
+         <div class="card mb-3" id="card" style="max-width: 100%;">
+            <div class="row g-0">
+               <div class="col-md-4">
+                  <img src="./images/LVV_1109-1-595x310.png" width="300px" alt="">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body col-lg-12">
+                     <span class="date">04.05.2021</span>
+                     <a href="#" class="n-link">
+                        <p class="card-text col-lg-12">Kryeministri Kurti pranon letër urim nga kryeministri i Maltës,
+                           Robert
+                           Abela</p>
+                        <br>
+                        <span class="more">show more <i class="fas fa-chevron-right"></i></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <br>
+         </div>
+         <div class="card mb-3" id="card" style="max-width: 100%;">
+            <div class="row g-0">
+               <div class="col-md-4">
+                  <img src="./images/LVV_1109-1-595x310.png" width="300px" alt="">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body col-lg-12">
+                     <span class="date">02.05.2021</span>
+                     <a href="#" class="n-link">
+                        <p class="card-text col-lg-12">Mbledhja e 14-të e Qeverisë së Kosovës</p>
+                        <br>
+                        <span class="more">show more <i class="fas fa-chevron-right"></i></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <br>
+         </div>
+         <div class="card mb-3" id="card" style="max-width: 100%;">
+            <div class="row g-0">
+               <div class="col-md-4">
+                  <img src="./images/LVV_1109-1-595x310.png" width="300px" alt="">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body col-lg-12">
+                     <span class="date">30.04.2021</span>
+                     <a href="#" class="n-link">
+                        <p class="card-text col-lg-10">Kryeministri Kurti në vizitë në "Defender Europe 21": FSK e
+                           gatshme dhe e
+                           aftë, për të kontribuar në sigurinë kontinentale e globale</p>
+                        <span class="more">show more <i class="fas fa-chevron-right"></i></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <br>
+         </div>
+         <div class="card mb-3" id="lastCard" style="max-width: 100%;">
+            <div class="row g-0">
+               <div class="col-md-4">
+                  <img src="./images/LVV_1109-1-595x310.png" width="300px" alt="">
+               </div>
+               <div class="col-md-8">
+                  <div class="card-body col-lg-12">
+                     <span class="date">28.04.2021</span>
+                     <a href="#" class="n-link">
+                        <p class="card-text col-lg-10">Kryeministri Kurti takon Kryeshefin Ekzekutiv në detyrë të
+                           Korporatës së
+                           Sfidave të Mijëvjeqarit, Mahmoud Bah</p>
+                        <span class="more">show more <i class="fas fa-chevron-right"></i></span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <nav aria-label="Page navigation example">
+            <ul class="pagination">
+               <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                     <span aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+                  </a>
+               </li>
+               <li class="page-item"><a class="page-link" href="#">1</a></li>
+               <li class="page-item"><a class="page-link" href="#">2</a></li>
+               <li class="page-item"><a class="page-link" href="#">3</a></li>
+               <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                     <span aria-hidden="true"><i class="fas fa-chevron-right" id="right"></i></span>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </section>
+
+   <footer>
+      <div class="container programCards">
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="card card-body h-100">
+                  <a href="#">
+                     <div class="ig">
+                        <img src="./icons/Group 2167.png" width="50px" alt="" />
+                     </div>
+                     <div class="body">
+                        <h5 class="card-title col-lg-6">Programi i qeverisë së Kosovës 2021-2025
+                           <i class="fas fa-chevron-right"></i>
+                        </h5>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="card card-body h-100" id="card">
+                  <a href="#">
+                     <div class="ig">
+                        <img src="./icons/Group 2204.png" width="75px" alt="" />
+                     </div>
+                     <div class="body">
+                        <h5 class="card-title col-lg-8">Platforma e Konsultimeve publike
+                           <br>
+                           <span class="be">merr pjesë!</span>
+                           <i class="fas fa-chevron-right"></i>
+                        </h5>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="container">
+         <div class="icons col-lg-12">
+            <div class="hr-theme-slash-2 col-lg-12">
+               <div class="hr-line hr-line-left"></div>
+               <div class="hr-icon"><img src="./icons/Union 109.png" alt=""></div>
+               <div class="hr-line hr-line-right"></div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container Objectives">
+         <div class="objectives col-lg-12">
+            <div class="objective col-lg-6">
+               <h5 class="title-objectives">Objektivat</h5>
+               <div class="typesOfObjectives">
+                  <h6 class="types-of-objectives ">
+                     <span class="line">-</span> Qeverisja e mirë,transparente dhe në shërbim të qytetarëve
+                     të Kosovës;
+                  </h6>
+                  <h6 class="types-of-objectives">
+                     <span class="line">-</span> Sundimi i rendit dhe ligjit ;
+                  </h6>
+
+                  <h6 class="types-of-objectives">
+                     <span class="line">-</span> Ekonomi të zhvilluar dhe modernizim të shtetit ;
+                  </h6>
+
+                  <h6 class="types-of-objectives">
+                     <span class="line">-</span> Arsim cilësor me aftësi konkurruese në tregun BE-së ;
+                  </h6>
+
+                  <h6 class="types-of-objectives">
+                     <span class="line">-</span> Shëndetësi dhe shërbime efektive ;
+                  </h6>
+
+                  <h6 class="types-of-objectives">
+                     <span class="line">-</span> Integrime Euro-Atlantike, anëtarsim në OKB dhe Nato ;
+                  </h6>
+
+                  <h6 class="types-of-objectives">
+                     <span class="line">-</span> Ushtri moderne sipas modelit të NATO-s ;
+                  </h6>
+               </div>
+            </div>
+            <div class="links col-lg-6">
+               <h5 class="title-objectives ">Vegëza</h5>
+               <div class="typesOfObjectives">
+                  <h6 class="types-of-objectives "><i class="fas fa-chevron-right"></i>
+                     Presidenca e Republikës së Kosovës</h6>
+                  <h6 class="types-of-objectives "><i class="fas fa-chevron-right"></i>
+                     Kuvendi i Republikës së Kosovës</h6>
+                  <h6 class="types-of-objectives "><i class="fas fa-chevron-right"></i>
+                     Portali Qeveritar </h6>
+                  <h6 class="types-of-objectives "><i class="fas fa-chevron-right"></i>
+                     Gazeta Zyrtare </h6>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container Contact">
+         <div class="footer col-lg-12 ">
+            <div class="contact col-lg-6">
+               <h3 class="contact-title">Kontakti</h3>
+               <div class="con-info">
+                  <p class="address"><i class="fas fa-map-marker-alt"></i> Adresa:Ndërtesa e Qeverisë, Sheshi "Nëna
+                     Terezë"
+                  </p>
+                  <p class="address"><i class="fas fa-map-marker-alt"></i> 10000 Prishtinë,Republika e Kosovës</p>
+                  <p class="phone"><i class="fas fa-phone-alt"></i> Tel: +383(0)38 201 14 803</p>
+                  <p class="mail"><i class="fas fa-envelope-open"></i> Email: zkp.zkm@rks-gov.net</p>
+               </div>
+            </div>
+            <div class="send-mail col-lg-6">
+               <div class="mails">
+                  <h3 class="mail-title">Prano të reja nga zyra e kryeministrit</h3>
+                  <div class="email1">
+                     <form class="d-flex">
+                        <div class="input-group mb-3">
+                           <input id="input" type="text" class="form-control" placeholder="E-mail" aria-label="E-mail"
+                              aria-describedby="button-addon2" />
+                           <button class="btn btn-outline-secondary send" type="button">
+                              Dergo
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container Copyright">
+         <div class="row">
+            <div class="important col-lg-12">
+               <div class="footer-name col-lg-3">
+                  <p class="name"><img src="./icons/Group 2192.png" width="30px" class="img-icon" alt="">Kushtetuta e
+                     Republikës
+                     së Kosovës</p>
+               </div>
+               <div class="footer-name col-lg-3">
+                  <p class="name"><img src="./icons/Group 2193.png" width="50px" class="img-icon" height="40px"
+                        alt="">Flamuri i
+                     Republikës së Kosovës</p>
+               </div>
+               <div class="footer-name col-lg-3">
+                  <p class="name"><img src="./icons/Union 112.png" width="40px" class="img-icon" height="40px"
+                        alt="">Stema e
+                     Republikës së Kosovës</p>
+               </div>
+               <div class="footer-name col-lg-3">
+                  <p class="name"><img src="./icons/musical-note.png" height="40px" class="img-icon" alt=""> Himni i
+                     Republikës
+                     së Kosovës</p>
+               </div>
+            </div>
+         </div>
+         <p class="copyright">Zyra e Kryeministrit të Kosovës - Të gjitha të drejtat e rezervuara 2021</p>
+      </div>
+   </footer>
+
+   <!-- Script Calling -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"></script>
+   <!-- header -->
+   <script>$("header").load("header.html");</script>
+   <!-- footer -->
+   <script>$("footer").load("footer.html");</script>
+</body>
+
+</html>
