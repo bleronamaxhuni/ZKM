@@ -1,0 +1,103 @@
+.groupOfNews {
+   .title-team {
+      margin-top: 80px;
+      color: white;
+   }
+   .title-team::after {
+      content: "";
+      background-image: linear-gradient(to right, rgba(255 , 255 , 255 , 0), rgb(255, 255, 255), rgba(255 , 255 , 255 , 0));
+      height: 1px;
+      margin-top:0px;
+      display: block;
+   }
+
+
+   .card {
+      margin-top: 10px;
+      background-color: transparent;
+      border: none;
+
+      .card-body {
+
+         .date,
+         .more {
+            color: #D2AB67;
+            font-style: italic;
+         }
+
+         .n-link {
+            text-decoration: none;
+         }
+         .more:hover{
+            color: #00408a;
+         }
+
+         .card-text {
+            font-family: 'Cabin', sans-serif;
+            color: white;
+            font-size: 20px;
+         }
+
+         .more {
+            float: right;
+         }
+      }
+   }
+   .card::after{
+      content: "";
+      background-image: linear-gradient(to right, rgba(255 , 255 , 255 , 0), rgb(255, 255, 255), rgba(255 , 255 , 255 , 0));
+      height: 1px;
+      display: block;
+   }
+   #lastCard::after{
+    background-image: none;
+   }
+
+
+   @media (max-width:991px) {
+      .card-body{
+        margin-left: 70px;
+      }
+   }
+   @media(max-width:767px){
+      .card-body{
+         margin-left: -15px;
+      }
+   }
+   .row.g-0:hover {
+      background-color: #5d94d381;
+   }
+
+   .pagination {
+      background-color: transparent;
+      .page-item {
+         .page-link {
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-family: 'Cabin', sans-serif;
+
+            .fas.fa-chevron-left {
+               color: #D2AB67;
+            }
+
+            .fas.fa-chevron-right {
+               color: #D2AB67;
+            }
+         }
+      }
+
+      .page-link:hover,
+      .page-link:focus {
+         background-color: transparent;
+         color: #D2AB67;
+      }
+   }
+
+   .news::after{
+      content: "";
+      background-image: linear-gradient(to right, rgba(255 , 255 , 255 , 0), rgb(255, 255, 255), rgba(255 , 255 , 255 , 0));
+      height: 1px;
+      display: block;
+   }
+}
