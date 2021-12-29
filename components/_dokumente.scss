@@ -1,0 +1,217 @@
+ .Document {
+    .title-team {
+       margin-top: 80px;
+       color: white;
+    }
+
+    .title-team::after {
+       content: "";
+       background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+       height: 1px;
+       margin-top: 10px;
+       display: block;
+    }
+
+    .flirt {
+       color: white;
+       border: 1px solid #D2AB67;
+       background-color: #D2AB67;
+       height: 27px;
+       float: right;
+       margin-top: -30px;
+       margin-right: 45px;
+    }
+
+    select {
+       float: right;
+       background-color: #4681c4;
+       color: #d6aa5d;
+       border: none;
+       height: 27px;
+       margin-top: -30px;
+       display: inline-block;
+    }
+
+    #year {
+       margin-right: 100px;
+    }
+
+    #month {
+       width: 100px;
+       margin-right: 160px;
+    }
+
+    @media (max-width:414px) {
+       #month {
+          width: 60px;
+       }
+    }
+
+    @media (max-width:320px) {
+       #month {
+          font-size: 13px;
+          width: 50px;
+          margin-right: 98px;
+       }
+
+       #year {
+          font-size: 13px;
+          margin-right: 45px;
+       }
+
+       .flirt {
+          font-size: 13px;
+          margin-right: 0px;
+       }
+
+       .title-team {
+          font-size: 12px;
+       }
+    }
+    }
+
+ .latestDecision {
+    margin-top: 20px;
+
+    .mb-3 {
+       background-color: transparent;
+       border: none;
+
+       .doc {
+          margin-left: -50px;
+          margin-top: 50px;
+          width: 50px;
+          height: 60px;
+       }
+
+       @media (max-width:1199px) {
+          .doc {
+             margin-left: 20px;
+          }
+       }
+
+       .n-link {
+          text-decoration: none;
+
+          .card-body {
+             .decision {
+                font-size: 20px;
+                color: #D2AB67;
+                font-style: italic;
+                margin-left: 0px;
+                margin-top: -100px;
+                text-transform: uppercase;
+             }
+
+             .date,
+             .more {
+                color: #D2AB67;
+                font-style: italic;
+             }
+
+             .more {
+                float: right;
+             }
+
+             .more:hover {
+                color: #00408a;
+             }
+
+             .card-text {
+                font-family: 'Cabin', sans-serif;
+                margin-left: 0px;
+                color: white;
+                font-size: 18px;
+             }
+
+             .small {
+                font-size: 17px;
+             }
+          }
+
+          @media (max-width:1099px) {
+             .more {
+                margin-right: 100px;
+             }
+          }
+
+          @media (max-width:991px) {
+             .more {
+                margin-right: 0px;
+             }
+          }
+       }
+
+
+       @media (max-width:1199px) {
+          .card-body {
+             margin-left: 80px;
+          }
+       }
+
+       @media (max-width:991px) {
+          .card-body {
+             margin-left: 80px;
+          }
+       }
+
+       @media (max-width:767px) {
+          .doc {
+             margin-left: 0px;
+             margin-top: 30px;
+             width: 50px;
+             height: 60px;
+          }
+
+          .card-body {
+             margin-left: 50px;
+          }
+       }
+    }
+    #lastCard::after{
+      background-image: none;
+     }
+    .row.g-0:hover {
+       background-color: #5d94d3;
+    }
+
+    .pagination {
+       background-color: transparent;
+       .page-item {
+          .page-link {
+             background-color: transparent;
+             border: none;
+             color: white;
+             font-family: 'Cabin', sans-serif;
+
+             .fas.fa-chevron-left {
+                color: #D2AB67;
+             }
+
+             .fas.fa-chevron-right {
+                color: #D2AB67;
+             }
+          }
+       }
+
+       .page-link:hover,
+       .page-link:focus {
+          background-color: transparent;
+          color: #D2AB67;
+       }
+    }
+
+    .mb-3::after{
+         content: "";
+         background-image: linear-gradient(to right, rgba(255 , 255 , 255 , 0), rgb(255, 255, 255), rgba(255 , 255 , 255 , 0));
+         height: 1px;
+         margin-top:0px;
+         display: block;
+    }
+ }
+.latestDecision::after{
+   content: "";
+   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+   height: 1px;
+   display: block;
+}

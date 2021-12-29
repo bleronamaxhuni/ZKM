@@ -1,0 +1,250 @@
+body {
+   overflow: auto;
+   background-image: url(../images/Mask.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.homeBanner{
+   max-height: 80vh;
+   height: 500px; 
+   .homeBannerChild{
+      top: 50%;
+      position: relative;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%); 
+      .introduction{
+         display: flex;
+         margin-bottom: 30px;
+         .image{
+            height: 130px;
+         }
+         .image img{
+         height: 100%;
+         width: auto; 
+         }
+         .mainPageTitle{
+            position: relative;
+            height: 130px;
+            .title{
+               font-family: "Cabin", sans-serif;
+               text-transform: uppercase;
+               font-size: 48px;
+               line-height: 65px;
+               color: white;
+               padding-left: 30px;
+            }
+            @media(max-width:991px){
+               .title{
+                  font-size: 35px;
+               }
+            }
+            @media(max-width:767px){
+               .title{
+                  font-size: 30px;
+                  line-height: 60px;
+               }
+            }
+            @media(max-width:522px){
+               .title{
+                  font-size: 28px;
+                  line-height: 60px;
+               }
+            }
+            @media(max-width:414px){
+               .title{
+                  font-size: 28px;
+                  line-height: 30px;
+               }
+            }
+            @media(max-width:320px){
+               .title{
+                  font-size: 20px;
+                  line-height: 30px;
+               }
+            }
+            .zkm {
+               color: #d2ab67;
+            }
+         }  
+      }
+
+
+      .latestNews{
+         hr{
+            color: #b3cde9;
+         }
+         .more {
+            font-size: 20px;
+            text-decoration: none;
+            color: #d2ab67;
+            float: right;
+         } 
+         @media(max-width:991px){
+            .more {
+               font-size: 18px;
+            }
+         }
+         @media(max-width:767px){
+            .more {
+               font-size: 15px;
+            }
+         }
+          .more:hover {
+            color: #5d99da;
+          }
+         
+         .infos{
+            margin-top: 40px;
+            .dates {
+               color: #d2ab67;
+               font-style: italic;
+             }
+           
+            h3{
+               &.info{
+                  color: rgb(255, 255, 255);
+               }
+            }
+            @media(max-width:991px){
+               .info{
+                  font-size: 20px;
+               }
+            }
+            @media(max-width:767px){
+               .info{
+                  font-size: 18px;
+               }
+            }
+            @media(max-width:522px){
+               .info{
+                  font-size: 16px;
+               }
+            }
+         }
+      }
+   }
+
+}
+
+
+.latestNews {
+   .row {
+      .bg-danger {
+         background-color: white !important;
+      }
+
+      .card {
+         a {
+            text-decoration: none;
+
+            .ig {
+               margin: -17px;
+            }
+
+            .body {
+               color: black;
+               color: black;
+               font-family: "Merriweather", serif;
+               font-size: 15px;
+               font-weight: 800;
+               margin-top: 25px;
+
+               .card-date {
+                  font-family: "Merriweather", serif;
+                  font-style: italic;
+                  color: #d2ab67;
+               }
+            }
+         }
+      }
+      .card:hover{
+         background-color:#aac3dd;
+      }
+   }
+}
+
+.subscribe{
+   margin-top: 70px;
+   .new{
+      text-transform: uppercase;
+      font-family: "Cabin", sans-serif;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+   }
+   .new::after{
+      content: "";
+      background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+      height: 1px;
+      margin-top: 10px;
+      display: block;
+   }
+    #input {
+      border: 1px solid #2767ad;
+      background-color: #2767ad;
+   }
+
+   .send {
+      border: 1px solid #d2ab67;
+      background-color: #d2ab67;
+      color: white;
+      width: 100px;
+    }
+}
+
+.socialNetworksTitles {
+   margin-top: 70px;
+   margin-bottom: 30px;
+
+   .fab.fa-facebook-f {
+   font-size: 30px;
+   color: white;
+   }
+
+   .fab.fa-twitter {
+   font-size: 30px;
+   color: white;
+   }
+
+   .hr-theme-slash-2 {
+      display: flex;
+      width: 100%;
+      .hr-line {
+         width: 100%;
+         height: 1px;
+         position: relative;
+         margin-top: 15px;
+         top: 50%;
+         position: relative;
+         transform: translateY(-50%);
+         -webkit-transform: translateY(-50%);
+         -moz-transform: translateY(-50%);
+      }
+      .hr-line.hr-line-left {
+         background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
+      }
+      .hr-line.hr-line-right {
+         background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+      }
+      .hr-icon {
+         position: relative;
+         padding: 0 10px;
+      }
+   }
+}
+
+
+.socialNetworksSmall {
+   display: none;
+    }
+ @media (max-width: 767px) {
+   .socialNetworksSmall {
+     display: block;
+   }
+   .socialNetworksBig .right {
+     display: none;
+   }
+   .socialNetworksSmall .left {
+     display: none;
+   }
+ }
