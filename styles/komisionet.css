@@ -1,0 +1,217 @@
+body{
+   overflow-x:hidden ;
+   background-image: url(../images/Mask.png);
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+hr{
+   color: #5d94d3;
+   width: 100%;
+}
+.link-name{
+   margin-top: 60px;
+}
+.link{
+   text-decoration: none;
+   color: white;  
+   word-spacing: 10px;
+   }
+.link:hover{
+   color: #D2AB67;
+}
+
+.fas.fa-chevron-right{
+   margin-left: 20px;
+   color: #D2AB67;
+}
+#right{
+   margin-left: 0px;
+}
+.title-team{
+   margin-top: 80px;
+   color: white;
+   border-bottom: 1px solid #5d94d3;
+}
+
+.list-group{
+   width: 300px;
+}
+.list-group-item{
+   font-size: 15px;
+   color: white;
+   background-color:#5d94d3;
+}
+.list-group-item:hover{
+   color: #D2AB67;
+   background-color: #5d94d3;
+}
+
+.title{
+   color: #D2AB67;
+   margin-top: -50px;
+   font-size:20px;
+}
+
+#list-item-1,
+#list-item-2,
+#list-item-3,
+#list-item-4{
+    color:#D2AB67;
+}
+.doc{
+   font-style: italic;
+}
+#list-item-2,
+#list-item-3,
+#list-item-4{
+   margin-top: 50px;
+}
+.lists{
+   margin-top: 80px;
+   display: flex;
+   border-bottom: 1px solid #5d94d3;
+}
+.office{
+   line-height: 30px;
+   margin-left: 100px;
+   color: white;
+}
+.number{
+   color: #D2AB67;
+   font-style: italic;
+}
+.what-they-do1{
+   margin-left: 15px;
+   font-family: 'Merriweather', serif;
+   font-size: 14px;
+}
+
+.what-they-do{
+   font-family: 'Merriweather', serif;
+}
+.office::-webkit-scrollbar {
+   width: 6px;
+}
+.office::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 10px transparent;
+}
+.office::-webkit-scrollbar-thumb {
+   border-radius: 100px;
+   background-color: #5d94d3;
+}
+.share{
+   font-size: 20px;
+   color: white;
+   text-align: center;
+}
+.social{
+   text-align: center;
+}
+.fab.fa-facebook-f,
+.fab.fa-twitter{
+   color: white;
+   font-size: 18px;
+   margin-left: 15px;
+}
+.body{
+   display: flex;
+}
+.date{
+   color: #D2AB67;
+   font-style: italic;
+}
+.body-info{
+   margin-top: -10px;
+   margin-left: 30px;
+   font-size: 15px;
+}
+
+
+@media (max-width:1099px) {
+   .office{
+      margin-left: 20px;
+   }
+}
+@media (max-width:991px) {
+   .list-group{ 
+      margin-left: 100px;
+   }
+   .office{
+      line-height: 25px;
+   }
+   .what-they-do1{
+      line-height: 20px;
+   }
+   .lists{
+      display: inline-block;
+   }
+   .list-group-item{
+      font-size: 18px;
+   }
+}
+@media(max-width:320px){
+   .list-group{
+      margin-left: 0px;
+   }
+   .list-group-item{
+      font-size: 15px;
+   }
+   #list-item-1{
+      font-size: 15px;
+   }
+   .doc{
+      font-size: 15px;
+   }
+}
+@media (max-width:414px) {
+   .list-group{
+      margin-left: 50px;
+   }
+}
+
+#cardd{
+   background-color: transparent;
+   border: none;
+   margin-top: 50px;
+   margin-left: 120px;
+}
+.card-titlee{
+   color: white;
+}
+.card-body{
+   margin-top: 30px;
+   margin-left: -60px;
+}
+.card{
+   display: inline-block;
+   border: 2px solid transparent;
+}
+.be{
+   color: #D2AB67;
+   font-style: italic;
+}
+.card-titlee{
+   font-family: 'Cabin', sans-serif;
+   text-transform: uppercase;
+   color: white;
+   margin-top: -15px;
+}
+@media(max-width:1395px){
+   #cardd{
+      display:inline-block;
+      margin-left: 120px;
+   }
+   .card-titlee{
+      margin-left: -5px;
+   }
+}
+
+@media(max-width:320px){
+   #cardd{
+      margin-left: 50px;
+   }
+   .card-titlee{
+      font-size: 15px;
+   }
+}

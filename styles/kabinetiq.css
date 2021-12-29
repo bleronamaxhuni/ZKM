@@ -1,0 +1,278 @@
+/* body{
+   overflow-x:hidden ;
+   background-image: url(../images/Mask.png);
+   background-size:cover;
+   background-repeat: no-repeat;
+} */
+
+/* Media queries for navbar --> title
+@media(max-width:1395px){
+   #fb , #tw , #yt{
+      font-size: 20px;
+   }
+   .social-media{
+      margin-right: 50px;
+      margin-top: 5px;
+   }
+   .language{
+      margin-right: 100px;
+   }
+   .language1{
+      font-size: 15px;
+      margin-top: 15px;
+   }
+   .logo1{
+      height: 40px;
+      width: 40px;
+   }
+   .navbar-light .navbar-brand{
+      font-size: 15px!important;
+   }
+   .navbar-light .navbar-nav .nav-link{
+      margin-left: 10px;
+      font-size: 13px;
+   }
+   .form-control.me-2{
+      margin-left:-180px;
+   }
+}
+@media(max-width:1199px){
+   .logo1{
+      height: 30px;
+      width: 30px;
+   }
+   .navbar-light .navbar-brand{
+      font-size: 13px!important;
+   }
+   .navbar-light .navbar-nav .nav-link{
+      margin-left: 10px;
+      font-size: 10px;
+   }
+   .form-control.me-2{
+      width: 155px;
+      margin-left:-180px;
+   }
+}
+@media(max-width:991px){
+   #fb , #tw , #yt{
+      font-size: 15px;
+   }
+   .social-media{
+      margin-right: 50px;
+      margin-top: 10px;
+   }
+   .language{
+      margin-right: 0px;
+   }
+   .language1{
+      font-size: 15px;
+      margin-top: 15px;
+   }
+   .bg-light{
+      border-top: 1px solid white;
+      width: 100%;
+      margin-left: 40px;
+   }
+   .form-control.me-2{
+      margin-left: 0px;
+   }
+   
+} */
+
+/* section */
+/* .link-name{
+   margin-top: 60px;
+}
+.link{
+   text-decoration: none;
+   color: white;  
+   word-spacing: 10px;
+   }
+.link:hover{
+   color: #D2AB67;
+}
+
+.social{
+   margin-left: 140px;
+}
+.social1{
+   margin-left: 140px;
+   margin-top: -15px;
+}
+
+
+.fab.fa-facebook-f{
+   color: white;
+   font-size: 20px;
+}
+
+.fab.fa-twitter{
+   color: white;
+   font-size: 20px;
+   margin-left: 20px;
+}
+.list-group-item{
+   background-color: transparent!important;
+}
+
+
+hr{
+    color: #5d94d3;
+ }
+
+
+.card{
+   border: none;
+   display: inline-block;
+}
+.mb-3{
+   background-color: transparent;
+}
+#cardd{
+   margin-left: 70px;
+   margin-top: 100px;
+}
+.card-titlee{
+   font-family: 'Cabin', sans-serif;
+   text-transform: uppercase;
+   color: white;
+   font-size: 22px;
+   margin-left: 0px;
+   margin-top: -15px;
+}
+.be {
+   color: #D2AB67;
+   font-style: italic;
+} */
+
+@media(max-width:1395px){
+   #cardd{
+      display:inline-block;
+   }
+   .card-titlee{
+      margin-left: -30px;
+   }
+}
+@media(max-width:991px){
+   .card-titlee{
+      margin-left: -100px;
+   }
+   .link-name{
+      margin-left: 0px;
+   }
+   .title-team{
+      margin-left: 0px;
+   }
+   .card-body{
+      margin-left: -30px;
+   }
+   .col-md-4{
+      margin-left: 0px;
+   }
+   .card-body1{
+      margin-top: -100px;
+      margin-left: 150px;
+   }
+}
+@media(max-width:320px){
+   /* #cardd{
+      margin-left: 10px;
+   }  
+   #cardd{
+      margin-left: 50px;
+   }
+   .card-titlee{
+      font-size: 15px;
+   } */
+   .social{
+      display: flex;
+      margin-left: 100px;
+   }
+   .fab.fa-facebook-f , .fab.fa-twitter{
+      margin-left: 15px;
+   }
+   .card-body1{
+      display: inline-block;
+      margin-left: 0px;
+      margin-top: 20px;
+   }
+}
+@media(max-width:1199px){
+   .card-titlee{
+      margin-left: -80px;
+   }
+   #cardd{
+      display: inline-block;
+      margin-left: 30px;
+   }
+}
+
+
+/* .Group{
+   margin-top: 100px;
+   margin-left: 300px;
+}
+.team-info{
+   color: #D2AB67;
+}
+.team-info1{
+   color: #D2AB67;
+   margin-left: 40px;
+}
+.row-team{
+   border-top: 1px solid #5d94d3;
+   margin-left: -200px;
+}
+.team{
+   border-bottom: 1px solid #5d94d3;
+   border-right: 1px solid #5d94d3;
+}
+.featured-items-img{
+   margin-left: 100px;
+}
+.title-team{
+   margin-top: 40px;
+   margin-left: 50px;
+   color: white;
+}
+.items-description{
+   margin-left: 70px;
+} */
+
+@media(max-width:1399px){
+   .Group{
+      margin-left: 230px;
+   }
+}
+@media(max-width:1199px){
+   .Group{
+      margin-left: 210px;
+   }
+}
+@media(max-width:991px){
+   .Group{
+      margin-left: 250px;
+   }
+   .card-titlee{
+      margin-left: 0px;
+   }
+}
+@media(max-width:320px){
+   .Group{
+      margin-left: 150px;
+   }
+   .social{
+      margin-left: 140px;
+   }
+   #cardd{
+      margin-left: 50px;
+   }
+   .card-titlee{
+      font-size: 15px;
+   }
+}
+@media(max-width:414px){
+   .card-titlee{
+      font-size: 15px;
+   }
+}

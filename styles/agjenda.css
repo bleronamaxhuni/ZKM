@@ -1,0 +1,383 @@
+body{
+   overflow-x:hidden ;
+   background-image: url(../images/Mask.png);
+   background-size:auto;
+   background-repeat: no-repeat;
+}
+/* 
+@media(max-width:1395px){
+   #fb , #tw , #yt{
+      font-size: 20px;
+   }
+   .social-media{
+      margin-right: 50px;
+      margin-top: 5px;
+   }
+   .language{
+      margin-right: 100px;
+   }
+   .language1{
+      font-size: 15px;
+      margin-top: 15px;
+   }
+   .logo1{
+      height: 40px;
+      width: 40px;
+   }
+   .navbar-light .navbar-brand{
+      font-size: 15px!important;
+   }
+   .navbar-light .navbar-nav .nav-link{
+      margin-left: 10px;
+      font-size: 13px;
+   }
+   .form-control.me-2{
+      margin-left:-180px;
+   }
+}
+@media(max-width:1199px){
+   .logo1{
+      height: 30px;
+      width: 30px;
+   }
+   .navbar-light .navbar-brand{
+      font-size: 13px!important;
+   }
+   .navbar-light .navbar-nav .nav-link{
+      margin-left: 10px;
+      font-size: 10px;
+   }
+   .form-control.me-2{
+      width: 155px;
+      margin-left:-180px;
+   }
+}
+@media(max-width:991px){
+   #fb , #tw , #yt{
+      font-size: 15px;
+   }
+   .social-media{
+      margin-right: 50px;
+      margin-top: 10px;
+   }
+   .language{
+      margin-right: 0px;
+   }
+   .language1{
+      font-size: 15px;
+      margin-top: 15px;
+   }
+   .bg-light{
+      border-top: 1px solid white;
+      width: 100%;
+      margin-left: 40px;
+   }
+   .form-control.me-2{
+      margin-left: 0px;
+   }
+   
+} */
+
+hr{
+   color: #5d94d3;
+   width: 100%;
+}
+.link-name{
+   margin-top: 60px;
+}
+.link{
+   text-decoration: none;
+   color: white;  
+   word-spacing: 10px;
+   }
+.link:hover{
+   color: #D2AB67;
+}
+
+.fas.fa-chevron-right{
+   margin-left: 20px;
+   color: #D2AB67;
+}
+/* .title-team{
+   margin-top: 80px;
+   color: white;
+   border-bottom: 1px solid #5d94d3;
+}
+
+.card{
+   background-color: transparent;
+   border: none;
+   margin-top: 50px;
+} */
+/* .card-title{
+   color: white;
+}
+.card-body{
+   margin-top: 30px;
+   margin-left: -60px;
+}
+.card{
+   display: inline-block;
+   border: 2px solid transparent;
+}
+
+.mb-3{
+   background-color: transparent;
+}
+#cardd{
+   margin-left: 105px;
+   margin-top: 100px;
+}
+.card-titlee{
+   font-family: 'Cabin', sans-serif;
+   text-transform: uppercase;
+   color: white;
+   font-size: 22px;
+   margin-left: -30px;
+   margin-top: -15px;
+}
+.be {
+   color: #D2AB67;
+   font-style: italic;
+}
+
+.social{
+   float: right;
+   margin-right: 150px;
+   word-spacing: 20px;
+   margin-top: -30px;
+}
+.fab.fa-facebook-f,
+.fab.fa-twitter{
+   color: white;
+   font-size: 20px;
+}
+.job{
+   color: #D2AB67;
+} */
+
+/* .news{
+   border-top: 1px solid #5d94d3;
+}
+
+.date ,.time ,.place{
+   color: #D2AB67;
+   font-style: italic;
+   font-family: 'Merriweather', serif;
+} */
+/* .new{
+   margin-top: 50px;
+   font-family: 'Merriweather', serif;
+   font-size: 15px;
+   color: white;
+}
+.new-link{
+   text-decoration: none;
+} */
+
+
+@media(max-width:1395px){
+   #cardd{
+      display:inline-block;
+   }
+   .card-titlee{
+      margin-left: -10px;
+   }
+}
+@media(max-width:991px){
+   .link-name{
+      margin-left: 0px;
+   }
+   .title-team{
+      margin-left: 0px;
+   }
+   .card-body{
+      margin-left: -30px;
+   }
+   .col-md-4{
+      margin-left: 0px;
+   }
+   .card-body1{
+      margin-top: -100px;
+      margin-left: 150px;
+   }
+}
+@media(max-width:320px){
+   #cardd{
+      margin-left: 60px;
+   }  
+   .social{
+      display: flex;
+      margin-left: 100px;
+   }
+   .fab.fa-facebook-f , .fab.fa-twitter{
+      margin-left: 15px;
+   }
+   .card-body1{
+      display: inline-block;
+      margin-left: 0px;
+      margin-top: 20px;
+   }
+
+}
+@media(max-width:414px){
+   .social{
+      display: flex;
+      margin-left: 120px;
+   }
+   .fab.fa-facebook-f , .fab.fa-twitter{
+      margin-left: 15px;
+   }
+   .job{
+      margin-left: -20px;
+   }
+}
+
+/* .wrapper {
+   float: right;
+   margin-top: -55%;
+   max-width: 1100px;
+ } 
+ 
+ .container-calendar {
+   background:transparent;
+   padding: 15px;
+   max-width: 475px;
+   margin: 0 auto;
+   overflow: auto;
+ }
+ #previous , #next{
+    color: #D2AB67;
+    margin-top: 100px;
+}
+ .button-container-calendar button {
+   cursor: pointer;
+   display: inline-block;
+   zoom: 1;
+   background: transparent;
+   color: #fff;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   padding: 5px 10px;
+ }*/
+ /* .table-calendar {
+   border-collapse: collapse;
+   width: 100%;
+ }
+ 
+ .table-calendar td, .table-calendar th {
+   padding: 20px;
+   border: 2px solid #034EA2;
+   text-align: center;
+   vertical-align: top;
+ } */
+
+ /* .date-picker{
+    background-color: #5d94d3;
+ }
+ .date-picker.selected {
+   font-weight: bold;
+   background-color: #d2ab67b4;
+ }
+ .date-picker.selected:hover{
+    background-color: #D2AB67;
+ }
+ .date-picker.selected span {
+   border-bottom: 2px solid currentColor;
+ }
+ 
+ .date-picker:nth-child(1) {
+   background-color: #1b487c;
+ }
+ .date-picker:nth-child(6) {
+   background-color: #6387b1;
+ } */
+ 
+ /* #monthAndYear {
+   text-align: center;
+   margin-top: 100px;
+ } */
+ 
+ .button-container-calendar {
+   position: relative;
+   margin-bottom: 1em;
+   overflow: hidden;
+   clear: both;
+ }
+ 
+ #previous {
+   float: left;
+ }
+ 
+ #next {
+   float: right;
+ }
+ 
+ /* .footer-container-calendar {
+   margin-top: 1em;
+   border-top: 1px solid #5d94d3;
+   padding: 10px 0;
+ }
+  */
+ /* .footer-container-calendar select {
+   cursor: pointer;
+   display: inline-block;
+   zoom: 1;
+   background: transparent;
+   color: #D2AB67;
+   border: 1px solid #5d94d3;
+   border-radius: 3px;
+   padding: 5px 1em;
+ } */
+/* body{
+   color: white;
+} */
+
+@media (max-width:1399px) {
+   .wrapper{
+      margin-top: -65%;
+   }
+}
+@media(max-width:1199px){
+   .wrapper{
+      margin-top: -82%;
+      margin-right: -50px;
+   }
+}
+@media (max-width:991px) {
+   .wrapper{
+      float: left;
+      margin-top: 0px;
+   }
+}
+@media(max-width:320px){
+   .wrapper{
+      max-width: 300px;
+   }
+   .date-picker{
+      font-size: 10px;
+   }
+   #monthAndYear{
+      font-size: 15px;
+      margin-top: 110px;
+   }
+   #thead-month{
+      font-size: 10px;
+   }
+}
+@media(max-width:414px){
+   .wrapper{
+      max-width: 400px;
+      margin-left: -10px;
+   }
+   .date-picker{
+      font-size: 10px;
+   }
+   #monthAndYear{
+      font-size: 15px;
+      margin-top: 110px;
+   }
+   #thead-month{
+      font-size: 10px;
+   }
+}

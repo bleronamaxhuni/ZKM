@@ -1,0 +1,240 @@
+/* footer */
+/* .ig{
+   margin-left: -2px;
+   margin-right: -2px;
+   margin-top: -2px;
+} */
+
+
+
+.hr-theme-slash-2 {
+   display: flex;
+}
+
+.h-line {
+   width: 100%;
+   position: relative;
+   margin: 15px;
+   margin-right: 50px;
+   border-bottom: 1px solid #5d94d3;
+}
+
+.h1-line {
+   width: 100%;
+   position: relative;
+   margin: 15px;
+   margin-left: 50px;
+   border-bottom: 1px solid #5d94d3;
+}
+.h-icon {
+   position: relative;
+   top: 35px;
+}
+
+
+.objectives{
+   display: flex;
+   margin-left: 0px;
+}
+.objectives1{
+   margin-left: 80px;
+}
+.title-objectives{
+   color: #D2AB67;
+   margin-left: 15px;
+   margin-top: 30px;
+   font-size: 25px;
+   text-transform: uppercase;
+}
+.line{
+   color: #D2AB67;
+   font-size: 20px;
+}
+.kind-of-objectives{
+   color: white;
+   margin-left: 5px;
+   margin-top: 10px;
+   line-height: 30px;
+   font-size: 18px;
+}
+.kindOfObjectives{
+   margin-top: 50px;
+}
+.fas.fa-chevron-right{
+   color: #D2AB67;
+}
+
+.contact-title{
+   color: #D2AB67;
+   margin-top: 0px;
+}
+.fas.fa-map-marker-alt, .fas.fa-phone-alt , .fas.fa-envelope-open{
+   color: #D2AB67;
+}
+.address , .phone , .mail{
+   color: white;
+   font-family: 'Merriweather', serif;
+   margin-top: 20px;
+}
+.con-info{
+   margin-top: 30px;
+}
+.footer{
+   margin-top: 100px;
+   display: flex;
+}
+.mails{
+   margin-left: 80px;
+}
+.mail-title{
+   color: #D2AB67;
+   margin-top: 0px;
+}
+#inputt{
+   margin-top: 20px;
+   width: 210px;
+   background-color: #2767AD;
+}
+.sendd{
+   border: 1px solid #D2AB67;
+   border-radius: 4px;
+   background-color: #D2AB67;
+   width:150px;
+   height: 30px;
+   float: right;
+   margin-top: -30px;
+   margin-right: 180px;
+}
+.important{
+   display: flex;
+   margin-left: 10px;
+}
+.name{
+   font-size: 16px;
+   font-family: 'Merriweather', serif;
+   color: white;
+   margin-top: 20px;
+}
+
+.copyright{
+   font-size: 18px;
+   text-align: center;
+   color: white;   
+   font-family: 'Merriweather', serif;
+}
+
+/* media queries for footers */
+@media(max-width:1395px){
+   #inputt{
+      margin-left: 0px;
+   }
+   .sendd{
+      margin-right: 80px;
+   }
+   .card-titlee{
+      font-size: 18px;
+   }
+}
+@media (max-width:1199px) {
+   .sendd{
+      margin-top: 20px;
+      margin-right: 235px;
+   }
+   .mail-title{
+      font-size: 20px;
+   }
+   .contact-title{
+      font-size: 20px;
+   }
+   .con-info{
+      font-size: 15px;
+   }
+   #inputt{
+      margin-top: 10px;
+   }
+   .name{
+      font-size: 12px;
+   }
+   .img-icon{
+      width: 25px;
+      height: 33px;
+   }
+}
+@media(max-width:991px){
+   .sendd{
+      margin-right: 160px;
+   }
+   #inputt{
+      margin-top: 10px;
+   }
+   .mail-title, .contact-title{
+      font-size: 25px;
+   }
+   .important{
+      display: inline-block;
+   }
+   .objectives{
+      display: inline;
+   }
+   .objectives1{
+      margin-left: -10px;
+   }
+   .title-objectives{
+      margin-left: 20px;
+   }
+   .copyright{
+      font-size: 15px;
+   }
+}
+@media (max-width:414px) {
+   .contact-title{
+      font-size: 20px;
+   }
+   .address , .phone , .mail{
+      font-size: 13px;
+   }
+   .mail-title{
+      font-size: 15px;
+   }
+   #inputt{
+      width: 150px;
+   }
+   .sendd{
+      margin-top: 10px;
+      margin-right: 100px;
+   }
+   .kind-of-objectives{
+      font-size: 13px;
+   }
+   .title-objectives{
+      font-size: 18px;
+   }
+}
+@media(max-width:320px){
+   .h-icon{
+      top: 0px;
+   }
+   .footer{
+      display: inline-block;
+   }
+   .mails{
+      margin-left: 50px;
+      margin-top: 50px;
+   }
+   .title-objectives{
+      font-size: 18px;
+   }
+   .kind-of-objectives{
+      font-size: 13px;
+      margin-top: 0px;
+   }
+   .con-info{
+      margin-top: 0px;
+   }
+   .contact-title{
+      margin-top: -50px;
+   }
+   .copyright{
+      font-size: 11px;
+   }
+}

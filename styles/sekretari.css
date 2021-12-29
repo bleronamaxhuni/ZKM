@@ -1,0 +1,194 @@
+body{
+   overflow-x:hidden ;
+   background-image: url(../images/Mask.png);
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+hr{
+   color: #5d94d3;
+   width: 100%;
+}
+.link-name{
+   margin-top: 60px;
+}
+.link{
+   text-decoration: none;
+   color: white;  
+   word-spacing: 10px;
+   }
+.link:hover{
+   color: #D2AB67;
+}
+
+.fas.fa-chevron-right{
+   margin-left: 20px;
+   color: #D2AB67;
+}
+.title-team{
+   margin-top: 80px;
+   color: white;
+   border-bottom: 1px solid #5d94d3;
+}
+.mb-3{
+   background-color: transparent;
+   border: none;
+   margin-top: 15px;
+}
+.card-title{
+   color: white;
+   margin-top: 30px;
+}
+.email{
+   color: #D2AB67;
+}
+.social{
+   float: right;
+   margin-right: 150px;
+   word-spacing: 20px;
+   margin-top: -30px;
+}
+.fab.fa-facebook-f,
+.fab.fa-twitter{
+   color: white;
+   font-size: 18px;
+}
+.cards{
+   border-bottom: 1px solid #5d94d3;
+}
+
+.purpose{
+   margin-top: 30px;
+   font-size: 18px;
+   color: #D2AB67;
+}
+.purpose-p{ 
+   font-family: 'Merriweather', serif;
+   color: white;
+}
+.experience{
+   font-size: 18px;
+   margin-top: 30px;
+   color: #D2AB67;
+}
+.position{
+   color: #D2AB67;
+}
+.professional{
+   color: white;
+}
+.about::-webkit-scrollbar {
+   width: 6px;
+}
+.about::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 10px transparent;
+}
+.about::-webkit-scrollbar-thumb {
+   border-radius: 100px;
+   background-color: #5d94d3;
+}
+
+.posts{
+   float: right;
+}
+.sm{
+   width:230px;
+}
+.fb-post{
+   margin-top: 20px;
+}
+.tw-post{
+   margin-top: 150px;
+}
+
+.post , .post1{
+   font-size: 30px;
+   margin-top: -200px;
+   margin-left: 50px;
+   color: #D2AB67;
+}
+@media( max-width:991px){
+   .posts{
+      margin-right: -50px;
+   }
+   .tw-post{
+      margin-top: 230px;
+   }
+   .post, .post1{
+      font-size: 20px;
+      margin-left: 30px;
+   }
+   .sm{
+      width:220px;
+   }
+}
+#cardd{
+   background-color: transparent;
+   border: none;
+   margin-top: 50px;
+   margin-left: 120px;
+}
+.card-titlee{
+   color: white;
+}
+.card-body{
+   margin-top: 30px;
+   margin-left: -60px;
+}
+.card{
+   display: inline-block;
+   border: 2px solid transparent;
+}
+.be{
+   color: #D2AB67;
+   font-style: italic;
+}
+.card-titlee{
+   font-family: 'Cabin', sans-serif;
+   text-transform: uppercase;
+   color: white;
+   margin-top: -15px;
+}
+@media(max-width:1395px){
+   #cardd{
+      display:inline-block;
+      margin-left: 120px;
+   }
+   .card-titlee{
+      margin-left: -5px;
+   }
+   /* .card{
+      margin-left: 120px;
+   } */
+}
+@media (max-width:320px) {
+   .social{
+      margin-right: 100px;
+   }
+   .posts{
+      width: 0px;
+      float: left;
+      margin-top: 285%;
+      margin-left: 20px;
+   }
+   #cardd{
+      margin-left: 50px;
+      margin-top: 230px;
+   }
+   .card-titlee{
+      font-size: 15px;
+   }
+   .sm{
+      width: 100px;
+   }
+   .post , .post1{
+      margin-top: -100px;
+      margin-left: 15px;
+      font-size: 11px;
+   }
+   .tw-post{
+      margin-top: -82px;
+      float: right;
+      margin-right: -250px;
+   }
+}

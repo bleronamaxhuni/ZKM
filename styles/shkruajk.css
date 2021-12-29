@@ -1,0 +1,136 @@
+/* body{
+   overflow-x:hidden ;
+   background-image: url(../images/Mask.png);
+   background-size:auto;
+   background-repeat: no-repeat;
+}
+.link-name{
+   margin-top: 60px;
+}
+.link{
+   text-decoration: none;
+   color: white;  
+   word-spacing: 10px;
+   }
+.link:hover{
+   color: #D2AB67;
+}
+
+.title-team{
+   margin-top: 60px;
+   color: white;
+}
+.fas.fa-chevron-right{
+   margin-left: 20px;
+   color: #D2AB67;
+}
+
+hr{
+   color: #5d94d3;
+} */
+/* 
+.email{
+   background-color: #5d94d3;
+   border: none;
+   color: white;
+   width: 400px;
+   height: 40px;
+  
+   margin-top: 15px;
+} */
+/* .surname{
+   background-color: #5d94d3;
+   border: none;
+   color: white;
+   width: 400px;
+   height: 40px;
+} */
+/* #message{
+   background-color: #5d94d3;
+   color: white;
+   width: 400px;
+   margin-top: 15px;
+}
+#send{
+   border: 1px solid #D2AB67;
+   background-color: #D2AB67;
+   width: 100px;
+   margin-top: 30px;
+} */
+
+.card{
+   display: inline-block;
+   border: none;
+}
+.mb-3{
+   background-color: transparent;
+}
+#cardd{
+   margin-left: 70px;
+   margin-top: 100px;
+}
+.card-titlee{
+   font-family: 'Cabin', sans-serif;
+   text-transform: uppercase;
+   color: white;
+   font-size: 22px;
+   margin-left: -30px;
+   margin-top: -15px;
+}
+.be {
+   color: #D2AB67;
+   font-style: italic;
+}
+@media (max-width:991px) {
+   .link-name{
+      margin-left: 50px;
+   }
+   .title-team{
+      margin-left: 50px;
+   }
+   .email  , #message , #send{
+      margin-left: -30px;
+   }
+   .surname{
+      margin-left: -15px;
+      width: 385px;
+   }
+}
+@media (max-width:320px) {
+   .link-name{
+      margin-left: 0px;
+   }
+   .title-team{
+      margin-left: 0px;
+   }
+   .email , #message , #send{
+      margin-left:-50px;
+      width: 200px;
+   }
+   .surname{
+      width: 175px;
+      margin-left: -25px;
+   }
+   #cardd{
+      margin-left: 30px;
+   }
+}
+@media(max-width:414px){
+   .email , #message {
+      margin-left:-40px;
+      width: 295px;
+   }
+   #send{
+      width: 150px;
+   }
+   .surname{
+      width: 275px;
+      margin-left: -20px;
+   }
+   .link-name{
+      margin-left: 0px;
+   }
+   .title-team{
+      margin-left: 0px;
+   }
+}
